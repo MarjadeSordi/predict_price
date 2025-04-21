@@ -37,4 +37,6 @@ Após fazer a requisição a api deve retornar 200 com um JSON mostrando a previ
 {</br>
     "prediction": 2200000.0</br>
 }</br>
-A última etapa do código carrega dados, os pré-processa, treina modelos de aprendizado de máquina e os avalia. Ele usa o MLflow para registrar os experimentos e modelos. O retreinamento é agendado para ocorrer </br> periodicamente, garantindo que o modelo se adapte a possíveis mudanças nos dados ao longo do tempo. Ele também inclui uma funcionalidade para detecção de drift (mudança na distribuição dos dados), utilizando a biblioteca </br>NannyML. Esse monitoramento de drift ajuda a identificar quando o modelo pode estar se tornando menos preciso devido a mudanças nos dados de entrada, sinalizando a necessidade de um novo retreinamento.</br>
+A última etapa do código carrega dados, os pré-processa, treina modelos de aprendizado de máquina e os avalia. <br>
+Coloquei o arquivo de dados no drive do google para executar esse processo.<br>
+Ele usa o MLflow para registrar os experimentos e modelos. O retreinamento é agendado para ocorrer </br> periodicamente (24h), garantindo que o modelo se adapte a possíveis mudanças nos dados ao longo do tempo. 
