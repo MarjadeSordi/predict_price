@@ -1,6 +1,6 @@
 # predict_price
 Trabalho final para a cadeira MFlow
-Para rodar esse projeto é necessário utilizar o Google Colab;
+Para rodar esse projeto é necessário utilizar o Google Colab; </br>
 Cadastrar um usuário no https://dashboard.ngrok.com/;
 É necessário adicionar a cédula que simula a API:
 '!ngrok authtoken <SEU TOKEN>' para simular o servidor da api. 
