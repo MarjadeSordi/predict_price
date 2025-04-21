@@ -3,7 +3,7 @@ Trabalho final para a cadeira MFlow </br>
 Para rodar esse projeto é necessário utilizar o Google Colab; </br>
 Cadastrar um usuário no https://dashboard.ngrok.com/; </br>
 É necessário adicionar a cédula que simula a API: </br>
-'!ngrok authtoken <SEU TOKEN>' para simular o servidor da api.  </br>
+'!ngrok authtoken *seutoken*' para simular o servidor da api.  </br>
 Para realizar esse colab eu utilizei os dados disponíveis no Kagle por esse link: </br>
 **https://www.kaggle.com/code/kerneler/starter-sao-paulo-real-estate-sale-07ca8a78-2**; </br>
 Nesse repositório vou disponibilizar os dados em formato de csv. </br>
